@@ -1,24 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>La muerte de la polilla y otros ensayos</title>
+            <title><addName> (The Death of the Moth)</addName></title>
+            <author> Virginia Woolf</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication information</p>
+            <p>Ed. La Bestia Equiliatera</p>
+            <p><date>1942</date></p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>es un ensayo de la escritora inglesa Virginia Woolf, publicado dentro de la obra del
+               mismo nombre en 1942.</p>
+            <p><note>Este ensayo de Virginia Woolf, cuyo estilo resulta incomprensible para las
+                  letras hispánicas pero de enorme tradición en la literatura inglesa, es una
+                  exploración fantástica sobre el sentido de la vida y la muerte.</note></p>
+            <p><note>Mencionamos este estilo de ensayo inglés precisamente porque no tiene nada de
+                  convencional. Lejos de lo académico, de la estructura lineal del ensayo rígido,
+                  Virginia Woolf construye sobre eventos cotidianos, y desde allí eleva sus
+                  consideraciones hacia otros espacios, a menudo, sorprendentes.</note></p>
          </sourceDesc>
+
+
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>Some text here.</p>
+         <quote> La Muerte de la Polilla. </quote>
+         <l>La Muerte de la Polilla. </l>
+         <note>Virginia Woolf (1882-1941)</note>
+         <p>
+            <figure>
+               <graphic url="Cecropia-Moth.jpg"/>
+               <head>moth</head>
+               <figDesc> imagen de una polilla en una categoria entomológica</figDesc>
+            </figure>
+         </p>
+         <p> No es propio llamar polillas a las que vuelan durante el día. No estimulan en nosotros
+            esa placentera sensación de noches veraniegas oscuras y de hiedra en floración que la
+            variedad más común, de alas secundarias amarillas y que duerme a la sombra de la
+            cortina, nunca deja de provocarnos. Son criaturas híbridas, ni alegres como las
+            mariposas ni sombrías como las de su propia especie. No obstante ello, el espécimen
+            presente, con sus estrechas alas color paja, orladas con borlas del mismo color, parecía
+            satisfecha con la vida. Era una mañana placentera a mediados de septiembre, suave,
+            benigna y sin embargo con un aire más nítido que el de los meses de verano. El arado
+            dejaba ya surcos en el campo frontero a la ventana y allí donde la reja había estado la
+            tierra quedaba plana y brillaba de humedad. Tal vigor llegaba de los campos y de las
+            colinas lejanas, que era difícil la exigencia de mantener los ojos sobre el libro.
+            También las cornejas se dedicaban a una de sus festividades anuales; planeando sobre las
+            copas de los árboles hasta simular que una red vasta, hecha con miles de nudos negros,
+            había sido lanzada al aire; la cual, tras algunos momentos, se hundía lentamente en los
+            árboles, hasta que cada rama parecía tener un nudo negro en la punta. Mas de pronto la
+            red era lanzada al aire de nuevo, en un círculo mayor ahora, en medio de un clamor y una
+            vociferación extremos, como si el verse lanzado al aire y vuelto con lentitud a las
+            copas de los árboles fuera una experiencia tremendamente excitante.</p>
+         <p> La misma energía que inspiraba a las cornejas, a los labriegos, a los caballos e
+            incluso, se diría, a las leves colinas desnudas, enviaba a la polilla, en plena
+            agitación, de un lado al otro del cuadrado formado por el panel de la ventana. Era
+            imposible no observarla. Se estaba, de hecho, consciente de un extraño sentimiento de
+            piedad por ella. Esa mañana las posibilidades de gozo parecían tan enormes y tan
+            variadas, que sólo tener en la vida el papel de polilla, y encima de una polilla diurna,
+            sonaba a un destino duro, como patético era su celo de disfrutar en plenitud esas magras
+            oportunidades. Volaba con energía hasta una esquina de su compartimento y, tras aguardar
+            allí un segundo, hacia la opuesta. ¿Qué le quedaba sino volar hasta la tercera esquina y
+            luego la cuarta? Era lo único que podía hacer a pesar del tamaño de las colinas, la
+            anchura del cielo, el humo lejano de las casas y, de vez en cuando, la voz romántica de
+            un vapor allá en el mar. Lo que podía hacer lo hacía. Observándola, se diría que una
+            fibra, muy delgada pero muy pura, de la enorme energía del mundo había sido introducida
+            en ese cuerpo débil y diminuto. Tan a menudo como ella cruzaba el panel podía yo
+            imaginar que se hacía visible un hilo de la luz vital. Era apenas o solamente vida.</p>
+         <p>Sin embargo, por ser una forma tan pequeña y tan sencilla de la energía que se iba
+            introduciendo por la ventana abierta y forzando su curso por tantos corredores estrechos
+            e intrincados de mi cerebro y del de otros seres humanos, algo había en ella de
+            maravilloso y a la vez patético. Es como si alguien hubiera tomado un abalorio de pura
+            vida para dotarlo, del modo más ligero posible, de vello y plumas, poniéndolo a danzar y
+            a zigzaguear para mostrarnos la verdadera naturaleza de la vida. Así expuesto, era
+            imposible olvidar la maravilla de todo aquello. Se es proclive a olvidarse de la vida,
+            viéndola encorvada y dominada y aderezada y oprimida de modo tal que ha de moverse con
+            la mayor circunspección y dignidad. Uña vez más, la idea de todo lo que esa vida pudiera
+            haber sido de nacer con cualquier otra forma, nos hace ver con una especie de piedad sus
+            sencillas actividades.</p>
+         <figure>
+            <graphic url="moth_ilustration.jpg"/>
+            <head>moth</head>
+            <figDesc> ilustración de polillas en una categoria entomológica</figDesc>
+         </figure>
+         <p>Al cabo de un tiempo, al parecer cansada de sus danzas, se posó en el borde de la
+            ventana, al sol. Habiendo terminado el curioso espectáculo, me fui olvidando de ella.
+            Luego, cuando levanté la vista, atrajo mi mirada. Intentaba reanudar su baile, pero
+            parecía tan rígida o tan torpe que sólo pudo aletear hasta la base del panel. Y en el
+            intento de cruzarlo de un vuelo, fracasó. Ocupada en otras cuestiones, por un tiempo
+            observé aquellos intentos fútiles sin pensar, esperando inconscientemente que la polilla
+            reasumiera su vuelo, tal como se aguarda que una máquina, detenida por un momento,
+            arranque de nuevo sin buscarle la razón del fallo. Al cabo de tal vez siete intentos,
+            resbaló del borde de madera y cayó, con un revoloteo de alas, de espaldas en el
+            antepecho de la ventana. El desamparo de su actitud me alertó. De pronto me vino la idea
+            de que estaba en dificultades, de que ya no podía levantarse, de que sus patas luchaban
+            en vano. Pero cuando acerqué el lápiz pensando en ayudarla a enderezarse, comprendí que
+            ese fracaso y esa torpeza eran el acercamiento de la muerte. Abandoné el lápiz.</p>
+         <p>Las patas se agitaron una vez más. Miré como buscando al enemigo contra el cual la
+            polilla luchaba. Miré hacia el exterior. ¿Qué había ocurrido allí? Presumiblemente era
+            mediodía y toda labor había cesado en los campos. Calma y silencio reemplazaban a la
+            animación anterior. Los pájaros se habían alejado, para alimentarse en los arroyos. Los
+            caballos estaban inmóviles. Sin embargo y pese a todo allí fuera estaba el poder,
+            masivo, indiferente, impersonal, sin prestar atención a nada en lo particular. Por
+            alguna razón opuesto a la pequeña polilla color paja. Era inútil intentar algo. No
+            quedaba sino observar los esfuerzos extraordinarios hechos por aquellas patas diminutas
+            contra un destino cercano que podía, de proponérselo, sumergir una ciudad entera y no
+            sólo una ciudad sino masas de seres humanos. Nada, lo sabía, tenía oportunidad alguna
+            contra la muerte. No obstante, tras una pausa de agotamiento, las patas volvieron a
+            estremecerse. Esta protesta última era soberbia; y tan frenética, que la polilla
+            consiguió al fin enderezarse. Desde luego, nuestras simpatías estaban todas con la vida.
+            Además, no habiendo nadie que se preocupara o se interesara, este esfuerzo gigantesco
+            por parte de una polilla insignificante y en contra de un poder de tal magnitud, para
+            conservar lo que nadie más valoraba o deseaba, conmovía de un modo extraño. De nuevo, de
+            alguna manera, veíamos vida, un puro abalorio. Levanté el lápiz una vez más, incluso
+            sabiéndolo inútil. Pero según lo hacía, asomaron las señales inequívocas de la muerte.
+            El cuerpo se relajó para en un instante quedar rígido. La lucha había terminado. Aquella
+            criatura pequeña e insignificante conocía ya la muerte. Al mirar esa polilla muerta, me
+            llenó de asombro este diminuto triunfo marginal de una fuerza tan grande en contra de un
+            antagonista así de menor. Tal y como la existencia había sido extraña unos minutos
+            antes, extraña era en este momento la muerte. La polilla, habiéndose enderezado, yacía
+            ahora en un sosiego de lo más decente y resignado. Ah sí, parecía decir, la muerte es
+            más fuerte que yo.</p>
+         <p>
+            <l> Virgina Woolf</l></p>
+         <l>1882 - 1941</l>
+
       </body>
-  </text>
+   </text>
 </TEI>
